@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #e6dfdf;
+}
+h1{
+    color: brown;
+}
+.products{
+padding: 30px;
+}
+.celion{
+    background-color: purple;
+    color: white;
+    height: 180px;
+    width: 40vh;
+    border-radius: 7px;
+    display: flex;
+    padding: 20.0px;
+   position: 20px;
+   margin-top: 30px;
+   flex-direction: column;
+}   
+img{
+    border-radius: 700px;
+} 
+span{
+    color: rgb(0, 0, 0);
+    padding-top: 18px;
+
+}   
+.irene{
+    display: flex;
+    margin-bottom: 30px;
+}
+.irene p{
+    margin-left: 20px;
+}
+.Anne{
+    background-color: purple;
+    color: white;
+    height: 180px;
+    width: 40vh;
+    border-radius: 7px;
+    display: flex;
+    padding: 20.0px;
+    position: 20px;
+    margin-top: 45px;
+    flex-direction: column;
+    align-content: left;
+    justify-content: center;
+    
+}
+.Wallace{
+    display: flex;
+    margin-bottom: 30px;
+}
+/* .Wallace p{
+    margin-left: 20px;
+} */
+
+.smith{
+    background-color: purple;
+    color: white;
+    height: 180px;
+    width: 40vh;
+    border-radius: 7px;
+    display: flex;
+    padding: 20.0px;
+    position: 20px;
+    margin-top: 70px;
+    flex-direction: column;
+    align-content: left;
+    justify-content: center;
+}
+
+.kelechi{
+    display:flex
+}
+.kelechi{
+    display: flex;
+    margin-bottom: 30px;
+}
+.kelechi p{
+    margin-left: 20px;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+    background-color: red;
+    display: flex;
+    height:20px;
+    width: 45vh;
+    padding: 10px;
+    border-radius: 7px;
+    /* align-items: center; */;
+    padding-top: 10px;
+    color: white;
+    margin-left: 90px;
+    justify-content: space-between;
+
+}
+.star-image{
+    padding-top: 5px;
+}
+.stars img{
+height: 12px;
+width: 2vh;
+}
+.moon{
+    background-color: red;
+    display: flex;
+    height:40px;
+    width: 47.5vh;
+    text-align: center;
+    justify-content: center;
+    border-radius: 7px;
+    align-items: center;
+    color: white;
+    margin-left: 150px;
+    justify-content: space-between;
+
+}
+.moon img{
+    height: 12px;
+    width: 2vh;
+}
+.sun{
+    background-color: red;
+    display: flex;
+    height:40px;
+    width: 47.5vh;
+    text-align: center;
+    justify-content: center;
+    border-radius: 7px;
+    align-items: center;
+    color: white;
+    margin-left: 190px;
+    justify-content: space-between;
+}
+.sun img{
+    height: 12px;
+    width: 2vh;
+    align-content: center;
+}
+
+.icon{
+    /* display: flex; */
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.icon div{
+    margin-bottom: 20px;
+}
+@media screen  and (max-width:600px){
+    body{
+        background-color: aqua;
+        color: rgb(13, 14, 13);
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: static;
+        padding: 0px;
+        padding-bottom: 10px;
+
+    }
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .stars{
+        margin-left: 0px;
+        width: 73vw;
+
+    }
+    .moon, .sun, .stars{
+        margin-left:0px;
+        padding: 0px 20px;
+        width: calc(70vw);
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .celion{
+        padding-bottom:10px;
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 70vw;
+    }
+    .smith{
+        margin-top:10px;
+        width:70vw;
+    }
+    .Anne{
+        margin-top: 10px;
+        width:70vw;
+    }
+    .width{
+        width: 100%;
+    }
+}
