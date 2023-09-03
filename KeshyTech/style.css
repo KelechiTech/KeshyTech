@@ -162,10 +162,10 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home section styling for the home background */
 .home{
     display: flex;
-    background: url("bleach.jpg") no-repeat center;
+    background:  url("boss.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
